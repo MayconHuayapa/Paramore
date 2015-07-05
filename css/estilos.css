@@ -1,0 +1,158 @@
+* {
+	font-size: 16px;
+	margin: 0;
+	font-family: "times new roman";
+}
+
+.line {	
+	border-right: 1px solid white;
+}
+
+#apelativo {
+	color: #ff7f00;
+	font-style: italic;
+	font-size: 20px;
+}
+
+#avatar {
+  	right: 1em;
+  	width: 60px;
+  	display: inline-block;
+  	float: right;
+  	padding: 10.5px 0;
+  	position: absolute;
+  	transition: width 0.5s, height 0.5s;
+}
+
+#avatar:hover {
+	width: 70px;
+}
+
+#descripcion {
+	text-align: center;
+  	color: white;
+  	padding: 1em 10em;
+  	text-shadow: 0.1em 0.1em 0.1em #000000;
+}
+
+#logo {
+	width: 158px;
+	display: inline-block;
+	vertical-align: top;
+	transition: width 0.5s, height 0.5s;
+}
+ #logo:hover {
+	width: 180px;
+ }
+
+#paramore {
+	width: 150px;
+	border-radius: 50%;
+	border: 5px solid #707070;
+	margin: 50px 0 20px 0;
+	transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+ #paramore:hover {
+ 	width: 200px;
+	transform: rotate(360deg);
+ }
+
+#separacion {
+
+	border-right: 1px solid #B0AEAE;
+}
+
+#seccion1 {
+	background: url(../image/fondo.png) no-repeat center center ;
+}
+
+#titulo {
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	padding: 0.5em;
+	text-shadow: 0 0 0.2em #8F7 ;
+}
+
+div {
+	width: 250px;
+	display: inline-block;
+	float: left;
+	padding: 0 30px;
+}
+
+div p {	
+	color: #B0B0B0
+}
+
+div ul {
+	list-style: none;
+}
+
+div ul li a {
+	text-decoration: none;
+	color: #EA6B00;
+}
+
+nav ul li a {
+	padding: 0 0.8em;
+	text-decoration: none;
+	color:white;
+}
+
+nav ul li a:hover {
+	font-style: italic;
+    color: #2b2b2b;
+}
+
+figure {
+	text-align: center;
+}
+
+
+
+header {
+	background-color: #828282;
+	height: 60px;
+	padding: 0 1em;
+	position: relative;
+}
+
+input {
+	right: 29em;
+  	float: right;
+  	margin: 17px 0;
+  	vertical-align: top;
+  	display: inline-block;
+  	position: absolute;
+
+}
+
+nav {
+	right: 4em;
+  	float: right;
+  	margin: 15px 0.5em;
+  	display: inline-block;
+  	position: absolute;
+}
+
+nav ul li {
+	color: #FFFFFF;
+	line-height: 30px;
+	display: inline-block;
+}
+
+nav ul {
+	padding: 0;
+	list-style: none;
+}
+
+section p {
+	padding: 2em;
+}
+
+footer {
+	height: 80px;
+	padding: 2em 25%;
+	background-color: #3f3f3f;
+}
